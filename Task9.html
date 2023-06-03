@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang ='en'> 
+    <head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TASK 9</title>
+        <style>
+          .frame {
+            display: flex;
+          }
+          
+          .vertical {
+            flex-direction: column;
+            flex: 1;
+            border: 1px solid black;
+            padding: 10px;
+            height: 100%;
+          }
+          
+          .horizontal {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            border: 1px solid black;
+            width: 100%;
+          }
+        </style>
+      <style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style>
+    </head>
+      <body data-new-gr-c-s-check-loaded="14.1111.0" data-gr-ext-installed="">
+        <div class="frame">
+          <div class="vertical">
+            <div class="horizontal">
+              <h1>Frame 1</h1><br>
+              <p>Contents of Frame 1</p>
+            </div>
+            <div class="horizontal">
+              <h1>Frame 2</h1><br>
+              <p>Contents of Frame 2</p>
+            </div>
+          </div>
+          <div class="vertical">
+            <h1>Frame 3</h1>
+              <p>Contents of Frame 3</p>
+          </div>
+          <div class="vertical">
+            <h1>Frame 4</h1>
+              <p>Contents of Frame 4</p>
+          </div>
+        </div>
+      
+     
+        </body>
+</html>
